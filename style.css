@@ -141,6 +141,117 @@ div.education{
   display: none;
 }
 
+
+.nav-links {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content:center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.nav-links > li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: #71C9CE;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a.active{
+  font-weight: bold;
+}
+
+
+li a:hover {
+  color: #FF8787;
+  border-bottom:#71C9CE solid ;
+}
+
+.btn-primary{
+  background-color: #71C9CE !important;
+  border: #71C9CE !important;
+}
+
+.btn-primary:hover{
+  background-color: aqua !important;
+}
+
+ul.pros>li{
+  list-style-type: "\2728";
+  padding: 10px 10px;
+  font-weight:bold;
+}
+
+p{
+  line-height: 1.7em !important;
+}
+
+.bottom{
+  background-color: #FFF6F6;
+}
+
+footer>p{
+  color: #b6cdce;
+}
+
+a>i{
+  padding: 5px;
+}
+
+div.cover{
+  background-image: url(images/LEAVES_BACKGROUND.jpg);
+  background-size:cover;
+}
+
+.more{
+  display: none;
+}
+
+.skill{
+  width: 50%;
+}
+
+.section{
+  background-color: #FFF6F6;
+}
+
+.coursebg{
+  background-image: url(images/course-bg.jpg);
+  background-size:cover;
+  opacity: 95%;
+  padding: 0;
+  margin: 0;
+}
+
+.filter{
+  background-color: white !important;
+  color: #71C9CE !important;
+  border-color: #71C9CE !important;
+}
+
+.filter:hover{
+  color:white !important;
+  background-color: #FF8787 !important;
+}
+
+.filter.active{
+  background-color: #71C9CE !important;
+  color: white !important;
+}
+
+.none {
+  display: none;
+}
+
 .card-img{
   width: 60% !important;
   opacity: 80%;
