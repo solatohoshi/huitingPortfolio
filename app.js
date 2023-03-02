@@ -1,3 +1,12 @@
+/* 
+o Name: Huiting Huang
+o Date: February 26, 2023f
+o Section: CST 8285 section 304
+o Lab: 304
+o File: app.js
+o Lab objective: some functions in the courses.html
+*/
+
 /*This function is used to hide the extra text in the cards and 
 show it when the user clicks the "read more" button. The text in the button changes accordingly.
 */

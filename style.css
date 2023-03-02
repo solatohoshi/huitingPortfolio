@@ -1,5 +1,21 @@
+/* 
+o Name: Huiting Huang
+o Date: February 26, 2023f
+o Section: CST 8285 section 304
+o Lab: 304
+o File: style.css
+o Lab objective: additional or overriding css
+*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+body{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 1rem !important;
+}
 .nav-links {
   display: flex;
   flex-wrap: nowrap;
@@ -70,12 +86,27 @@ div.cover{
   background-size:cover;
 }
 
+h2~ul>li{
+  padding-bottom: 1rem !important;
+}
+
+div.education{
+  border-right: solid 1px rgb(192, 190, 190);
+  border-right-style: dotted;
+}
+
+/* hr{
+  width: 15%;
+  opacity: 80%;
+} */
+
 .more{
   display: none;
 }
 
 .skill{
   width: 50%;
+  margin-bottom: 2rem;
 }
 
 .section{
