@@ -16,6 +16,7 @@ body{
 h1, h2, h3, h4, h5 {
   margin-bottom: 1rem !important;
 }
+
 .nav-links {
   display: flex;
   flex-wrap: nowrap;
@@ -44,7 +45,7 @@ a.active{
   font-weight: bold;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color on hover */
 li a:hover {
   color: #FF8787;
   border-bottom:#71C9CE solid ;
@@ -95,10 +96,6 @@ div.education{
   border-right-style: dotted;
 }
 
-/* hr{
-  width: 15%;
-  opacity: 80%;
-} */
 
 .more{
   display: none;
@@ -252,7 +249,7 @@ div.cover{
   display: none;
 }
 
-.card-img{
+div#courses-info .card-img{
   width: 60% !important;
   opacity: 80%;
 }

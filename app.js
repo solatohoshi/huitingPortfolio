@@ -41,7 +41,7 @@ const courses=document.querySelectorAll(".col");
 const searchCourse = function(e){
   e.preventDefault(); // prevent default behavior
 
-  window.location.href="#coursesInfo";
+  window.location.href="#courses-info";
 
   const input=document.getElementById("myInput");
   const search=input.value.toUpperCase();

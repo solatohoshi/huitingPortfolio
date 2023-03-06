@@ -1,0 +1,95 @@
+/*
+o Name: Huiting Huang
+o Date: February 10, 2023f
+o Section: CST 8285 section 304
+o Lab: 304
+o File: lab3.css
+o Lab objective: This is the css for lab3.html 
+*/
+
+
+header, footer{
+    background-color: #60594D;
+    color: #93A29B;
+    border: 4px solid #101010;
+    padding: 10px;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #101010;
+    background-color: #DDD78D;
+}
+
+nav{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+header a{
+    background-color: white;
+    border: 2px solid #101010;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 12pt;
+    color: #101010;
+}
+
+a:hover{
+    color: #8B635C;
+    background-color: #DDD78D;
+}
+
+h1{
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-weight: bold;
+    font-size:larger;
+}
+
+p, li{
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+p.quoted{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #DCBF85;
+}
+
+.none{
+    list-style-type: none;
+}
+
+img{
+    float: right;
+    width: 25%;
+    margin: 10px;
+}
+
+footer p{
+    text-align: right;
+    font-size: 10pt;
+    font-style: italic;
+    padding-top: 20px;
+    margin: 0;
+}
+
