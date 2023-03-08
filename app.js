@@ -61,8 +61,8 @@ const searchCourse = function(e){
 searchForm.addEventListener("submit", searchCourse);
 searchBtn.addEventListener("click", searchCourse);
 
-  /* This is the filter function that helps the user to view the courses by level.
-  */
+/* This is the filter function that helps the user to view the courses by level.
+*/
 const btnContainer = document.querySelector(".btn-container");
 const filterBtns = btnContainer.querySelectorAll(".filter");
 
@@ -83,6 +83,16 @@ filterBtns.forEach((btn) => {
   }
     }
   });
+});
+
+//show the dropdown sorting buttons
+const sort = document.getElementById('sort');
+const dropdownMenu = document.querySelector('.dropdown-menu');
+
+// Add a click event listener to the button
+sort.addEventListener('mouseenter', () => {
+  // Toggle the "show" class on the dropdown menu
+  dropdownMenu.classList.toggle('show');
 });
 
 /* This is the sorting function that will sort the courses by
@@ -128,37 +138,21 @@ document.getElementById('high-to-low').addEventListener('click', () => {
 });
 
 
-// function levelFilter(l){
-//   var col, i;
-//   col = document.getElementsByClassName("col");
-//   if(l=="all") l = "";
-//   for (i=0; i<col.length; i++){
-//     removeClass(col[i], "show");
-//     if (col[i].className.indexOf(l)>-1) addClass(col[i], "show");
-//   }
-// }
+/* Creating a scrolling back to top button
+*/
+const topBtn = document.querySelector(".top-link");
 
-// //reference from w3school
-// function addClass(element, name) {
-//   var i, arr1, arr2;
-//   arr1 = element.className.split(" ");
-//   arr2 = name.split(" ");
-//   for (i = 0; i < arr2.length; i++) {
-//     if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-//   }
-// }
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-// function removeClass(element, name) {
-//   var i, arr1, arr2;
-//   arr1 = element.className.split(" ");
-//   arr2 = name.split(" ");
-//   for (i = 0; i < arr2.length; i++) {
-//     while (arr1.indexOf(arr2[i]) > -1) {
-//       arr1.splice(arr1.indexOf(arr2[i]), 1);     
-//     }
-//   }
-//   element.className = arr1.join(" ");
-// }
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+}
+
 
 
 
