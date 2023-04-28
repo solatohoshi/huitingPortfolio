@@ -49,6 +49,10 @@ a.active{
   font-weight: bold;
 }
 
+.contact {
+  background-color: #e5f5f8;
+}
+
 /* Change the link color on hover */
 li a:hover {
   color: #FF8787;

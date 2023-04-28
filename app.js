@@ -54,7 +54,6 @@ const searchCourse = function(e){
         // courses[i].innerHTML="";
         courses[i].classList.remove("none");
       }
-
     }
 }
 
