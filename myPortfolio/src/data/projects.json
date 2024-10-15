@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Todo Management Full-Stack App",
+      "imageSrc": "projects/spring.png",
+      "description": "A todo management app with React-based frontend and Java Spring Boot backend via RESTful API. Secure data access with Spring Security, JPA, and Hibernate.",
+      "skills": ["React", "Java", "SQL", "Spring Boot", "REST API"],
+      "demo": "https://drive.google.com/file/d/1C598hbK0kB5Yadk6JcZMwpz6s6-vHsep/view?usp=sharing",
+      "source": "https://www.github.com/solatohoshi/TodoManagementApp"
+    },
+    {
+      "title": "Project B",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Project C",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
