@@ -10,6 +10,7 @@ export const Contact = () => {
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
       </div>
+
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
@@ -27,6 +28,7 @@ export const Contact = () => {
           <a href="https://github.com/solatohoshi">github.com/solatohoshi</a>
         </li>
       </ul>
+
     </footer>
   );
 };
