@@ -2,12 +2,13 @@
 
 .container {
   margin-top: 76px;
-  color: var(--color-text);
+  color: var(--color-text-secondary);
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .title {
+  color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;

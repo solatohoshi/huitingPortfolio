@@ -1,24 +1,23 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Navbar =() => {
+export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
-    return<nav className={styles.navbar}>
-        <a href="/"><img className={styles.logo} alt="logo" src={getImageUrl("nav/logo.png")}/></a>
+    return <nav className={styles.navbar}>
+
         <div className={styles.menu}>
-            <img className={styles.menuBtn} src={
-            menuOpen 
-            ? getImageUrl("nav/closeIcon.png") 
-            : getImageUrl("nav/menuIcon.png")
-            }
-            alt="menu-button"
-            onClick={()=> setMenuOpen(!menuOpen)}
-            />
+            <button
+                className={styles.menuBtn}
+                onClick={() => setMenuOpen(!menuOpen)}
+                aria-label={menuOpen ? "Close menu" : "Open menu"}
+            >
+                {menuOpen ? "✖" : "☰"}
+            </button>
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-            onClick={ () => setMenuOpen(false)}>
+                onClick={() => setMenuOpen(false)}>
                 <li>
                     <a href="#about">About</a>
                 </li>
