@@ -3,7 +3,6 @@ This is an updated portfolio website built with React, featuring self-designed i
 The web app is responsive on all devices, providing smooth user experience.
 
 The website is deployed through Github pages: https://solatohoshi.github.io/huitingPortfolio/
-I followed this tutorial for deployment: https://github.com/gitname/react-gh-pages?tab=readme-ov-file 
 
 Figma design: https://www.figma.com/design/rloSUA4nXki6I2rtpstOyT/MyPortfolio?node-id=0-1&t=PzmIRl9vGciJKsUV-1 
 
